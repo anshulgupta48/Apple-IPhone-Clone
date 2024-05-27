@@ -27,8 +27,8 @@ const Footer = () => {
         <div className="bg-neutral-700 my-5 h-[1px] w-full" />
 
         <div className="flex md:flex-row flex-col md:items-center justify-between">
-          <p className="font-semibold text-gray text-xs">Copright &copy; 2024 Apple Inc. All rights reserved.</p>
-          <div className="flex">
+          <p className="font-semibold text-gray text-xs text-center">Copright &copy; 2024 Apple Inc. All rights reserved.</p>
+          <div className="hidden md:flex">
             {footerLinks.map((item, index) => (
               <p className="font-medium text-gray text-xs cursor-pointer transition-all hover:text-white" key={index}>
                 {item}{' '}
